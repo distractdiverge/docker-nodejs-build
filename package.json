@@ -4,6 +4,8 @@
   "description": "A sample project to use docker for building nodejs apps.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
     "test": "mocha test.js"
   },
   "repository": {
@@ -18,10 +20,12 @@
   "homepage": "https://github.com/alexlapinski/docker-nodejs-build#readme",
   "dependencies": {
     "express": "^4.15.3",
+    "express-hal": "0.0.1",
     "lodash": "^4.17.4"
   },
   "devDependencies": {
     "chai": "^4.0.2",
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0"
   }
 }
