@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-build",
+  "version": "1.0.0",
+  "description": "A sample project to use docker for building nodejs apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlapinski/docker-nodejs-build.git"
+  },
+  "author": "Alex Lapinski <contact@alexlapinski.name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexlapinski/docker-nodejs-build/issues"
+  },
+  "homepage": "https://github.com/alexlapinski/docker-nodejs-build#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
